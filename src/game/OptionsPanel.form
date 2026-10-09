@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="game.OptionsPanel">
+  <grid id="27dc6" binding="optionsPanel" layout-manager="BorderLayout" hgap="30" vgap="60">
+    <constraints>
+      <xy x="20" y="20" width="523" height="403"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <foreground color="-13817297"/>
+      <inheritsPopupMenu value="false"/>
+    </properties>
+    <border type="empty" title="Menu" title-justification="2" title-position="2">
+      <font name="Avenir Next" size="20" style="1"/>
+      <title-color color="-13817297"/>
+      <size top="50" left="10" bottom="10" right="10"/>
+    </border>
+    <children>
+      <grid id="50047" binding="centerPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <opaque value="false"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="ba05b" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7c962" class="javax.swing.JButton" binding="resumeButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Avenir Next" size="14" style="0"/>
+                  <text value="Resume"/>
+                </properties>
+              </component>
+              <hspacer id="cff5f">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="85129">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="9d2b0" class="javax.swing.JButton" binding="quitButton">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Avenir Next" size="14" style="0"/>
+                  <text value="Quit"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2fe11" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9c7eb" class="javax.swing.JSlider" binding="musicVolume">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <inverted value="false"/>
+                  <majorTickSpacing value="25"/>
+                  <minorTickSpacing value="5"/>
+                  <paintLabels value="false"/>
+                  <paintTicks value="false"/>
+                  <paintTrack value="true"/>
+                  <snapToTicks value="true"/>
+                  <value value="75"/>
+                </properties>
+              </component>
+              <component id="65b72" class="javax.swing.JSlider" binding="fxVolume">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <inheritsPopupMenu value="false"/>
+                  <inverted value="false"/>
+                  <majorTickSpacing value="25"/>
+                  <minorTickSpacing value="5"/>
+                  <paintLabels value="false"/>
+                  <paintTicks value="false"/>
+                  <paintTrack value="true"/>
+                  <snapToTicks value="true"/>
+                  <value value="75"/>
+                </properties>
+              </component>
+              <component id="44422" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Avenir Next" size="14" style="0"/>
+                  <text value="Music Volume"/>
+                </properties>
+              </component>
+              <component id="2eb1b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Avenir Next" size="14" style="0"/>
+                  <text value="FX Volume"/>
+                </properties>
+              </component>
+              <component id="80f1c" class="javax.swing.JLabel" binding="musicVolDisplay">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="75"/>
+                </properties>
+              </component>
+              <component id="c5951" class="javax.swing.JLabel" binding="fxVolDisplay">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="75"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <hspacer id="cc46">
+        <constraints border-constraint="East"/>
+      </hspacer>
+      <hspacer id="8b813">
+        <constraints border-constraint="West"/>
+      </hspacer>
+      <vspacer id="c37bd">
+        <constraints border-constraint="South"/>
+      </vspacer>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,37 @@
+Use of AI
+As part of my game development project, I used AI (ChatGPT) to deepen my understanding of Java OOP, game rendering, and debugging.
+Below are key areas where AI assisted my learning:
+
+- Understanding swing Timer
+Prompt Used: "how would you use a Swing Timer for animating a body?"
+helped for explosion animation, cloud animation, and Tracker smoothMoveView method
+
+- Explained Lambda notation
+
+- How to respawn player but keep lives and scores constant
+Prompt Used: "how could you respawn a player in a game while ensuring that lives and scores stay the same across respawns?"
+This then gave me the idea to make a GameManager class
+
+- Displaying player statistics with paintForeground
+AI generated code that overrides paintForeground, using Graphics2D, and implementing a progress bar for score.
+
+- Debugging and Refining UI Calculations
+While implementing a progress bar for the score, I wanted to ensure that the score bar scales correctly.
+Prompt Used: "Can you explain this line of code: int filledWidth = (int) (barWidth * (Math.min(score, 100) / 100.0));?"
+
+- Debugging (or attempting to debug) code
+When I couldn't understand why certain code wasn't working as intended, I used AI as a tool to help debug. This had limited success
+
+I used AI as a tool to understand the further understand concepts, and not as a shortcut.
+I refined each AI-generated suggestion to fit my project, strengthening my problem-solving skills and debugging abilities,
+and made sure to fully understand each line of code generated before implementing.
+
+Milestone 2:
+
+Prompt: How can I know when the character is on the ground, or in the air?
+Answer: Use a foot sensor
+
+Prompt: How can I track the duration of the jetpack?
+Answer: long elapsed = System.currentTimeMillis() - jetpackStartTime;
+               jetpackTimeLeft -= elapsed; // reduce the remaining time
+               activatedJetpack = false;
